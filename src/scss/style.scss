@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+@import "_hero.scss";
+@import "_articles.scss";
+@import "_paralax.scss";
+@import "_gallery.scss";
+@import "_map.scss";
+@import "_recommend.scss";
+@import "_footer.scss";
